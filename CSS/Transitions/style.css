@@ -1,0 +1,93 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 4s;
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+}
+
+
+#d1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+#d2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+#d3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+
+#d4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+#d5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    cursor: pointer;
+    transition-duration: 5s;
+}
+
+#d6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#d6:hover {
+    height: 300px;
+    width: 300px;
+}
+
+#d1:hover {
+    width: 300px;
+    height: 300px;
+}
+
+#d2:hover {
+    width: 300px;
+    height: 300px;
+}
+
+#d3:hover {
+    width: 300px;
+    height: 300px;
+}
+
+#d4:hover {
+    width: 300px;
+    height: 300px;
+}
+
+#d5:hover {
+    width: 300px;
+    height: 300px;
+}
